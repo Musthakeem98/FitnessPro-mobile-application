@@ -1,0 +1,56 @@
+name: fitnessapp
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  video_player: ^2.6.1
+  lottie: ^3.0.0
+  carousel_slider: ^4.2.1
+  pomodoro4d: ^0.0.2
+  intl: ^0.19.0
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.2.0
+  fluttertoast: ^8.2.4
+  youtube_player_flutter: ^8.1.2
+  firebase_database: ^10.2.1
+  url_launcher: ^6.1.11
+  flutter_rating_bar: ^4.0.1
+  rating_dialog: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/alphalogo.jpg"
+
+  flutter_lints: ^2.0.0
+  intl: ^0.18.1
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/animations/
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+       - asset: fonts/BebasNeue-Regular.ttf
